@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: #112966;
+    padding: 40px;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-align: left;
+    width: 80px;
+    border-radius: 100%;
+}
+.panama{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ciudades{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.ciudad{
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    top: 20%;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 40px;
+    background-color: white;
+}
+.img1{
+    width: 1349px;
+}
+.bienvenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.texto1{
+    padding: 90px;
+}
+.titulo1{
+    color: #112966;
+    font-size: 50px;
+}
+.parrafo1{
+    padding-top: 80px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.img2{
+    width: 600px;
+    border-radius: 20%;
+    padding: 20px;
+}
+.destinos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.destino{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    top: 20%;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 40px;
+    background-color:#112966;
+}
+.comparte{
+    padding: 130px;
+    background-color: #112966;
+}
+.compartetitulo{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.compartetitulo1{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.linea{
+    width: 100%;
+    border-top: 5px solid white;
+}
+.viaja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #112966; 
+    padding: 130px;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+.link1{
+    color: #112966;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    top: 20%;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 40px;
+    background-color: white;
+}
+.imagen3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img4{
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.img6{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+    width: 1000px;
+}
+.contactenos{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    color: #112966;
+}
+.izquierda{
+    padding-left: 200px;
+    padding-right: 50px;
+}
+.derecha{
+    padding-left: 50px;
+    padding-right: 200px;
+}
+.contactenos input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    outline: none;
+    background: transparent;
+}
+.contactenos label{
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+.button1{
+    text-align: center;
+    list-style: none;
+    padding-bottom: 100px;
+}
+.button{
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 20px;
+    background-color:#112966;
+    color: white;
+}
+.titulos{
+    color: #112966;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.tituloss{
+    color: #112966;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.listas{
+    list-style: none;
+    padding-bottom: 150px;
+}
+.lista1{
+    font-size: 40px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: black;
+}
+footer{
+    background-color: #112966;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    align-items: center;
+}
+.texto__sigueme{
+    color: white;
+    margin-right: 80px;
+}
+.personal__opciones{
+    width: 50PX;
+    margin-left: 30px;
+}
